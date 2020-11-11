@@ -1,6 +1,6 @@
 pragma solidity 0.5.12;
 
-contract HelloWorld {
+contract AsyncHelloWorld {
   string message = "Hello world!";
 
   function getMessage() public view returns (string memory) {
