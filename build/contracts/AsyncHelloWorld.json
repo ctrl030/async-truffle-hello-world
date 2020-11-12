@@ -803,12 +803,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x3C55f64bca6b9d8D02dF2E24eB4BF8C4e7B5A8bf",
-      "transactionHash": "0xf9daf74a149e6f59e9f675cb1709cd8eda2defc8bfcc25b2ad2716cd56fda5cf"
+      "address": "0xacFa0e6D926BA582716a6953971691347fDda6DC",
+      "transactionHash": "0x602beded9e0251a4af5cff5e204094b63cc874e377f5edf3b00deb67a24dcbb5"
     }
   },
   "schemaVersion": "3.2.0",
-  "updatedAt": "2020-11-12T04:43:30.246Z",
+  "updatedAt": "2020-11-12T20:23:21.279Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
