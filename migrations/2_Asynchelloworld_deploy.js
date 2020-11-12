@@ -22,16 +22,21 @@ module.exports = async function(deployer, network, accounts) {
     const instance = await AsyncHelloWorld.deployed();
     
     console.log("Me: let instance = await deployer.deploy(AsyncHelloWorld) was run.");
-  
-    await instance.setMessage("Set Message was called and worked.", {value: 100000000000000000, from: accounts[0]});
-    
-    console.log("Success");
 
+    try {
+      await instance.setMessage("Set Message was called and worked.", {value: 100000000000000000, from: accounts[0]});
+    }
+
+    catch (err) {
+      console.log("Error during setting Message: " + err)
+    }
   }
 
   catch (err) {
-    console.log("Error: " + err)
+    console.log("Error during whole deployment: " + err)
   }
+
+  console.log("Success");
 
   /* 
     }).catch(function(err){
