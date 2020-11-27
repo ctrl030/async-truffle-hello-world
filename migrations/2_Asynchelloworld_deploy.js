@@ -1,6 +1,6 @@
 const AsyncHelloWorld = artifacts.require("AsyncHelloWorld");
 
-/* module.exports = async function(deployer, network, accounts) {
+/* module.exports = function(deployer, network, accounts) {
   deployer.deploy(AsyncHelloWorld).then(function(instance){
     instance.setMessage("Set Message was called and worked.", {value: 100000000000000000, from: accounts[0]}).then(function(){
       console.log("Success");
